@@ -10,4 +10,4 @@ tar.gz:
 clean:
 	rm -rf build/
 
-.PHONE: all build tar.gz clean
+.PHONY: all build tar.gz clean
