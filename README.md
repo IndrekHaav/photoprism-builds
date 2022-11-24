@@ -2,11 +2,15 @@
 
 ## 🚧 Work in progress 🚧
 
-To build PhotoPrism:
+## Requirements
+
+ - [Docker](https://docs.docker.com/engine/install/)
+
+## Build instructions
 
 ```shell
 $ git clone https://github.com/IndrekHaav/photoprism-builds.git
 $ cd photoprism-builds
 $ git submodule update --init
-$ # TODO: build
+$ make
 ```
