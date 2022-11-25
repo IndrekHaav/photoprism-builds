@@ -1,4 +1,4 @@
-BUILD_TAG ?= $(shell cd src && git tag | sort -V | tail -1)
+BUILD_TAG := $(or $(BUILD_TAG),$(shell cd src && git tag | sort -V | tail -1))
 DESTDIR := ../build
 
 all: build tar.gz clean
