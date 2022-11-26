@@ -30,7 +30,8 @@ Then follow the instructions in [this guide](https://github.com/IndrekHaav/photo
 
 ## TODO
 
- - [ ] Build using Github Actions
+ - [X] Build using Github Actions
  - [ ] Provide AVX/AVX2 builds
  - [ ] Provide ARM64 builds
  - [ ] Build .deb files for Debian/Ubuntu
+ - [ ] Test build before publishing
