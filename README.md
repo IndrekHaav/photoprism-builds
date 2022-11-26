@@ -2,18 +2,21 @@
 
 ## 🚧 Work in progress 🚧
 
-## Requirements
+This repo contains unofficial builds of [PhotoPrism](https://github.com/photoprism/photoprism) for Linux.
 
- - [Docker](https://docs.docker.com/engine/install/)
+## FAQ
 
-## Build instructions
+ - **Why?**
 
-```shell
-$ git clone https://github.com/IndrekHaav/photoprism-builds.git
-$ cd photoprism-builds
-$ git submodule update --init
-$ make
-```
+   To make it easier to run PhotoPrism without Docker.
+
+ - **How?**
+
+   The build is done using the PhotoPrism development Docker image and automated using GitHub Actions.
+
+## Disclaimer
+
+This project is not affiliated with the developers of PhotoPrism in any way. The builds are unofficial, you run them at your own risk.
 
 ## Install instructions
 
