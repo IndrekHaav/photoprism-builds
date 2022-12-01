@@ -4,6 +4,8 @@ If the builds in this repo are out-of-date, it's possible to build PhotoPrism yo
 
 ## Requirements
 
+ - Git
+ - Make
  - [Docker](https://docs.docker.com/engine/install/)
 
 ## Build instructions
