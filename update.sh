@@ -13,3 +13,4 @@ cd ..
 git commit -a -m "Update src"
 git tag "$latest_tag"
 git push --all
+git push --tags
