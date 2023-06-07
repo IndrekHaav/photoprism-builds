@@ -19,23 +19,11 @@ jobs:
         run: BUILD_TAG=${{ github.ref_name }} make build tar.gz
 
       - name: Create release
-        uses: actions/create-release@v1
-        id: create_release
+        uses: softprops/action-gh-release@v1
         with:
-          release_name: ${{ github.ref_name }}
-          tag_name: ${{ github.ref_name }}
+          files: photoprism.tar.gz
           body: "Automated build of PhotoPrism version ${{ github.ref_name }}"
           prerelease: false
           draft: false
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-
-      - name: Upload build
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: photoprism.tar.gz
-          asset_name: photoprism.tar.gz
-          asset_content_type: application/gzip
         env:
           GITHUB_TOKEN: ${{ github.token }}
