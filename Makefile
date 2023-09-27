@@ -10,7 +10,7 @@ build:
 		-e BUILD_TAG='$(BUILD_TAG)' \
 		-e DESTDIR='$(DESTDIR)' \
 		photoprism/develop:bullseye \
-		bash -c -- "cd src && git checkout $(BUILD_TAG) && make all install"
+		bash -c -- "cd src && git checkout $(BUILD_TAG) && make install-go all install"
 
 tar.gz:
 	tar czf photoprism.tar.gz -C build/ .
