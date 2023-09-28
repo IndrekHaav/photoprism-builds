@@ -20,11 +20,15 @@ This project is not affiliated with the developers of PhotoPrism in any way. The
 
 ## Install instructions
 
-To install PhotoPrism, copy the photoprism.tar.gz archive to your server and unpack to `/opt/photoprism`:
+To install PhotoPrism, download the photoprism.tar.gz archive to your server and unpack to `/opt/photoprism`:
 
 ```shell
+$ wget https://github.com/IndrekHaav/photoprism-builds/releases/latest/download/photoprism.tar.gz
+$ sudo mkdir /opt/photoprism
 $ sudo tar xzf photoprism.tar.gz -C /opt/photoprism/
 ```
+
+You can run `/opt/photoprism/bin/photoprism -v` to verify the version.
 
 Then follow the instructions in [this guide](https://github.com/IndrekHaav/photoprism-debian), starting from the "[Configure PhotoPrism](https://github.com/IndrekHaav/photoprism-debian#configure-photoprism)" step.
 
