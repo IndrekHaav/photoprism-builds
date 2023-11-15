@@ -1,5 +1,7 @@
 # Unofficial PhotoPrism builds for Linux
 
+**Note**: As of October 2023, PhotoPrism provides official Linux builds at https://dl.photoprism.app/pkg/linux/. Please use those instead.
+
 ## 🚧 Work in progress 🚧
 
 This repo contains unofficial builds of [PhotoPrism](https://github.com/photoprism/photoprism) for Linux.
